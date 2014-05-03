@@ -23,14 +23,17 @@ eval `opam config env`
 # Aliases
 alias nus='cd ~/Google\ Drive/NUS/'
 alias prolog='swipl'
-alias CS2104='cd ~/Google\ Drive/NUS/CS2104/'
 alias TypeIt='java -jar ~/Google\ Drive/NUS/CS2103/Project/TypeIt.jar'
 alias ftab='osascript ~/Scripts/find_safari_tab.scpt'
 alias sunfire='ssh stacey@sunfire.comp.nus.edu.sg'
-alias site='cd ~/Google\ Drive/Site/'
+alias cte='ssh stacey@cte.comp.nus.edu.sg'
+
 # Enable color highlighting
 export CLICOLOR=1
 export LSCOLORS=CxGxBxDxFxegedabagacad
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# Setting bash prompt
+PS1="\[\033[\033[0;36m\\]\h\[\033[0m\][\[\033[0;33m\]\D{%a}\[\033[0m\]-\[\033[0;33m\]\A\[\033[0m\]]:\W\$ "
