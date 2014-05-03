@@ -79,6 +79,8 @@
 (global-set-key "\C-c\C-k" 'kill-region)
 ;; Disable menu bar
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
+;; Turn on auto-fill mode for text files
+(add-hook 'text-mode-hook 'turn-on-auto-fill)
 
 ;; Loading Coq and Proof General
 (setq auto-mode-alist (cons '("\\.v$" . coq-mode) auto-mode-alist))
