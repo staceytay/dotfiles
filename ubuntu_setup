@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Temp folder
+rm -rf ~/.temp
+mkdir ~/.temp
+
+# Essential
+sudo apt-get install git -y
+sudo apt-get install curl -y
+sudo apt-get install python-software-properties -y
+sudo apt-get install python-dev -y
+sudo apt-get install openssh-server -y
+
+# Google Chrome
+sudo apt-get install libxss1 -y
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome*.deb
+
+# Emacs and Vim
+sudo apt-get install emacs24 -y
+sudo apt-get install vim -y
+
+# Solarized gnome (terminal) 
+git clone git://github.com/sigurdga/gnome-terminal-colors-solarized.git ~/.temp/gnome-terminal-colors-solarized
+sh ~/.temp/gnome-terminal-colors-solarized/set_dark.sh
+
+sudo apt-get install tmux -y
+sudo apt-get install python-pip -y
