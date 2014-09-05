@@ -8,6 +8,7 @@ brew install aspell
 brew install emacs --HEAD --use-git-head --cocoa --with-gnutls
 brew linkapps
 git clone https://github.com/staceytay/emacs.d.git .emacs.d
+(cd .emacs.d/ && git checkout stacey)
 # Fish shell
 brew install fish
 sudo -s 'echo "/usr/local/bin/fish" >> /etc/shells'
