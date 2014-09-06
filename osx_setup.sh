@@ -9,14 +9,16 @@ brew install emacs --HEAD --use-git-head --cocoa --with-gnutls
 brew linkapps
 git clone https://github.com/staceytay/emacs.d.git .emacs.d
 (cd .emacs.d/ && git checkout stacey)
+# Languages
+brew install ocaml
+brew install opam
+brew install python
+pip install --upgrade setuptools
+pip install --upgrade pip
 # Fish shell
 brew install fish
 sudo -s 'echo "/usr/local/bin/fish" >> /etc/shells'
 chsh -s /usr/local/bin/fish
-# Languages
-brew install ocaml
-brew install opam
-
 
 brew install caskroom/cask/brew-cask
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
@@ -31,3 +33,7 @@ brew cask install spotify
 brew cask install vlc
 brew cask install vmware-fusion
 brew cask install xquartz
+
+# NLTK
+brew install libyaml
+sudo pip install -U nltk
