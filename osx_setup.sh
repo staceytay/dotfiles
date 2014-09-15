@@ -9,12 +9,13 @@ brew install emacs --HEAD --use-git-head --cocoa --with-gnutls
 brew linkapps
 git clone https://github.com/staceytay/emacs.d.git .emacs.d
 (cd .emacs.d/ && git checkout stacey)
-# Languages
+# Languages and tools
 brew install ocaml
 brew install opam
 brew install python
 pip install --upgrade setuptools
 pip install --upgrade pip
+sudo gem install jekyll
 # Fish shell
 brew install fish
 sudo -s 'echo "/usr/local/bin/fish" >> /etc/shells'
