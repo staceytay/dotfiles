@@ -9,6 +9,10 @@ brew install emacs --HEAD --use-git-head --cocoa --with-gnutls
 brew linkapps
 git clone https://github.com/staceytay/emacs.d.git .emacs.d
 (cd .emacs.d/ && git checkout stacey)
+(mkdir Repositories && cd Repositories/ && git clone git@github.com:staceytay/dotfiles.git)
+ln -s Repositories/dotfiles/.profile .profile
+ln -s Repositories/dotfiles/.emacs_bash .emacs_bash
+
 # Languages and tools
 brew install ocaml
 brew install opam
