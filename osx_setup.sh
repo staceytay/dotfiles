@@ -23,6 +23,7 @@ brew upgrade
 (mkdir Repositories && cd Repositories/ && git clone git@github.com:staceytay/dotfiles.git)
 ln -s Repositories/dotfiles/.profile .profile
 ln -s Repositories/dotfiles/.emacs_bash .emacs_bash
+ln -s Repositories/dotfiles/.tmux.conf .tmux.conf
 
 # Languages and tools
 brew install aspell
