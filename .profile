@@ -14,6 +14,6 @@ export CLICOLOR=1
 export LSCOLORS=CxGxBxDxFxegedabagacad
 
 # Setting bash prompt
-PS1="\[\033[\033[0;36m\\]\h\[\033[0m\][\[\033[0;33m\]\D{%a}\[\033[0m\]-\[\033[0;33m\]\A\[\033[0m\]]:\W\$ "
+PS1="\[\033[1;93m\]\D{%a}-\A\[\033[0m\]#\[\033[1;36m\]\u\[\033[0m\] \[\033[1;32m\]\w\[\033[0m\]\$ "
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
