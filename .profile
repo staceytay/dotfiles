@@ -8,9 +8,6 @@ eval `opam config env`
 # Aliases
 alias ls='ls -h' # makes file sizes human readable
 alias ll='ls -lh'
-alias nus='cd ~/Google\ Drive/NUS/'
-alias sunfire='ssh stacey@sunfire.comp.nus.edu.sg'
-alias cte='ssh stacey@cte.comp.nus.edu.sg'
 
 # Enable color highlighting
 export CLICOLOR=1
