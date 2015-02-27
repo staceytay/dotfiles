@@ -28,14 +28,18 @@ ln -s Repositories/dotfiles/.tmux.conf .tmux.conf
 # Languages and tools
 brew install aspell
 brew install emacs --HEAD --use-git-head --cocoa --with-gnutls
+brew linkapps emacs
 git clone https://github.com/staceytay/emacs.d.git .emacs.d
 (cd .emacs.d/ && git checkout stacey)
 brew install gcc
+brew install ghostscript
+brew install httrack
 brew install node
 brew install ocaml
 brew install opam
 brew install libyaml
 brew install python
+brew install tmux
 brew install tree
 brew install fish
 sudo -s 'echo "/usr/local/bin/fish" >> /etc/shells'
@@ -46,19 +50,25 @@ brew cleanup
 brew install caskroom/cask/brew-cask
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 brew cask install alfred
+brew cask install basictex
+tlmgr install preprint
+brew cask install bartender
+brew cask install calibre
 brew cask install dash
 brew cask install dropbox
 brew cask install evernote
 brew cask install flux
 brew cask install google-chrome
 brew cask install google-drive
+brew cask install istat-menus
 brew cask install java
+brew cask install pandoc
 brew cask install slack
 brew cask install spectacle
 brew cask install spotify
+brew cask install spotify-notifications
 brew cask install vlc
 brew cask install vmware-fusion
-brew cask install xquartz
 
 brew cask alfred link
 
@@ -66,6 +76,7 @@ brew cask alfred link
 pip install --upgrade setuptools
 pip install --upgrade pip
 pip install ipython
+pip install mitmproxy
 sudo pip install -U nltk
 pip install -U numpy scipy scikit-learn
 pip install scrapy
