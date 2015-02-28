@@ -10,6 +10,6 @@ HIST_STAMPS="yyyy-mm-dd" # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"
 ZSH_CUSTOM=/Users/stacey/Repositories/dotfiles/zsh
 ZSH_THEME="stacey"
 
-plugins=(git)
+plugins=(brew git)
 
 source $ZSH/oh-my-zsh.sh
