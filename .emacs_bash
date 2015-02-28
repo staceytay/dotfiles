@@ -1,9 +1,0 @@
-# Stacey's bash profile for the Emacs shell
-# 25th Aug 2014
-
-# Aliases
-alias ls='ls -h' # makes file sizes human readable
-alias ll='ls -lh'
-
-# Setting bash prompt
-PS1="\D{%a}-\A:\w\$ "

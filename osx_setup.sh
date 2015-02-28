@@ -19,11 +19,13 @@ brew doctor
 brew update
 brew upgrade
 
+# oh-my-zsh
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+
 # Setup dotfiles
 (mkdir Repositories && cd Repositories/ && git clone git@github.com:staceytay/dotfiles.git)
-ln -s Repositories/dotfiles/.profile .profile
-ln -s Repositories/dotfiles/.emacs_bash .emacs_bash
 ln -s Repositories/dotfiles/.tmux.conf .tmux.conf
+ln -s Repositories/dotfiles/zsh/.zshrc .zshrc
 
 # Languages and tools
 brew install aspell
@@ -41,8 +43,6 @@ brew install libyaml
 brew install python
 brew install tmux
 brew install tree
-brew install fish
-sudo -s 'echo "/usr/local/bin/fish" >> /etc/shells'
 
 brew cleanup
 
