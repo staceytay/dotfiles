@@ -9,10 +9,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 xcode-select --install
 
-# Config git
-git config --global user.name "Stacey Tay"
-git config --global user.email "stay.jw@gmail.com"
-
 # Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor
@@ -83,3 +79,7 @@ sudo pip install virtualenv
 
 # Ruby gems
 sudo gem install jekyll
+
+# Config git
+git config --global user.name "Stacey Tay"
+git config --global user.email "stay.jw@gmail.com"
