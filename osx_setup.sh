@@ -56,6 +56,7 @@ brew cask install evernote
 brew cask install flux
 brew cask install google-chrome
 brew cask install google-drive
+brew cask install hermes
 brew cask install istat-menus
 brew cask install java
 brew cask install pandoc
