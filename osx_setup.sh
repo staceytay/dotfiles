@@ -31,6 +31,7 @@ git clone https://github.com/staceytay/emacs.d.git .emacs.d
 brew install gcc
 brew install ghostscript
 brew install httrack
+brew install nginx
 brew install node
 brew install ocaml
 brew install opam
