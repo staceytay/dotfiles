@@ -67,6 +67,7 @@ brew cask install spotify
 brew cask install spotify-notifications
 brew cask install vlc
 brew cask install vmware-fusion
+brew cask install ynab
 
 brew cask alfred link
 
