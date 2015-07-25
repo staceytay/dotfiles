@@ -60,6 +60,7 @@ brew cask install hermes
 brew cask install istat-menus
 brew cask install java
 brew cask install pandoc
+brew cask install rescuetime
 brew cask install slack
 brew cask install spectacle
 brew cask install spotify
