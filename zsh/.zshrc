@@ -13,6 +13,10 @@ HIST_STAMPS="yyyy-mm-dd"
 ZSH_CUSTOM=$HOME/Repositories/dotfiles/zsh
 ZSH_THEME="stacey"
 
+# Get zsh man pages for builtin commands
+unalias run-help
+autoload run-help
+
 plugins=(brew git pip)
 
 source $ZSH/oh-my-zsh.sh
