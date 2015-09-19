@@ -19,7 +19,7 @@ brew upgrade
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 
 # Setup dotfiles
-(mkdir Repositories && cd Repositories/ && git clone git@github.com:staceytay/dotfiles.git)
+(mkdir Repositories && cd Repositories/ && git clone https://github.com/staceytay/dotfiles.git)
 ln -s Repositories/dotfiles/.tmux.conf .tmux.conf
 ln -s Repositories/dotfiles/zsh/.zshrc .zshrc
 
