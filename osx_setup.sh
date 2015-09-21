@@ -70,8 +70,6 @@ brew cask install vlc
 brew cask install vmware-fusion
 brew cask install ynab
 
-brew cask alfred link
-
 # Python packages
 pip install --upgrade setuptools
 pip install --upgrade pip
