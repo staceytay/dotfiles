@@ -30,6 +30,7 @@ brew linkapps emacs
 git clone https://github.com/staceytay/emacs.d.git .emacs.d
 brew install gcc
 brew install ghostscript
+brew install httpie
 brew install httrack
 brew install nginx
 brew install node
