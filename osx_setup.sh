@@ -86,4 +86,4 @@ sudo gem install jekyll
 
 # Config git
 git config --global user.name "Stacey Tay"
-git config --global user.email "stay.jw@gmail.com"
+git config --global user.email "staceytay@users.noreply.github.com"
