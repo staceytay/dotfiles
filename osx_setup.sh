@@ -85,6 +85,12 @@ sudo pip install virtualenv
 # Ruby gems
 sudo gem install jekyll
 
+# Initialize opam config and install packages
+opam init
+opam install merlin
+opam install ocp-indent
+opam install utop
+
 # Config git
 git config --global user.name "Stacey Tay"
 git config --global user.email "staceytay@users.noreply.github.com"
