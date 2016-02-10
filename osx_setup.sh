@@ -88,9 +88,12 @@ sudo gem install jekyll
 
 # Initialize opam config and install packages
 opam init
+opam install async
+opam install cohttp
 opam install merlin
 opam install ocp-indent
-opam install utop
+opam install uri
+opam install yojson
 
 # Config git
 git config --global user.name "Stacey Tay"
