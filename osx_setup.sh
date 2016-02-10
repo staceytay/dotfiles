@@ -25,6 +25,7 @@ ln -s Repositories/dotfiles/zsh/.zshrc .zshrc
 
 # Languages and tools
 brew install aspell
+brew install ctags
 brew install emacs --HEAD --use-git-head --cocoa --with-gnutls
 brew linkapps emacs
 git clone https://github.com/staceytay/emacs.d.git .emacs.d
