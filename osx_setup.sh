@@ -22,7 +22,7 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 mkdir Repositories
 
 # Setup dotfiles
-git clone https://github.com/staceytay/dotfiles.git Repositories/dotfiles
+git clone git@github.com:staceytay/dotfiles.git Repositories/dotfiles
 ln -s Repositories/dotfiles/.tmux.conf .tmux.conf
 ln -Fs Repositories/dotfiles/zsh/.zshrc .zshrc
 git clone https://github.com/staceytay/emacs.d.git .emacs.d
