@@ -37,6 +37,7 @@ brew install node
 brew install ocaml
 brew install opam
 brew install python
+brew install ripgrep
 brew install ruby
 brew install tmux
 brew install tree
