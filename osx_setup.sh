@@ -60,6 +60,9 @@ brew cask install spectacle
 brew cask install spotify
 brew cask install vlc
 
+# JS stuff
+npm install -g tern
+
 # Python packages
 pip install --upgrade setuptools
 pip install --upgrade pip
