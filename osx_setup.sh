@@ -25,6 +25,7 @@ mkdir Repositories
 git clone git@github.com:staceytay/dotfiles.git Repositories/dotfiles
 ln -s Repositories/dotfiles/.tmux.conf .tmux.conf
 ln -Fs Repositories/dotfiles/zsh/.zshrc .zshrc
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/staceytay/emacs.d.git .emacs.d
 
 # Languages and tools
