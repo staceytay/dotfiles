@@ -8,7 +8,9 @@ _fishy_collapsed_wd() {
 }
 
 local user_color='green'; [ $UID -eq 0 ] && user_color='red'
-PROMPT='%F{190%}%D{%a}-%T%f %{$fg_bold[cyan]%}%n%{$reset_color%}@%{$fg[yellow]%}%m%{$reset_color%} %{$fg[$user_color]%}$(_fishy_collapsed_wd)$(git_prompt_info)%{$reset_color%}%(!.#.>) '
+NEWLINE=$'\n'
+# PROMPT='%F{100%}%D{%a}-%T%f %{$fg[cyan]%}%n%{$reset_color%}@%{$fg[yellow]%}%m%{$reset_color%} %{$fg[$user_color]%}$(_fishy_collapsed_wd)%{$reset_color%}%{$fg[cyan]%}$(git_prompt_info)%{$reset_color%}${NEWLINE} %(!.#.>) '
+PROMPT='%{$fg[yellow]%}%D{%a}-%T%f%{$reset_color%} %{$fg[yellow]%}%n%{$reset_color%}@%{$fg[yellow]%}%m%{$reset_color%} %{$fg[$user_color]%}$(_fishy_collapsed_wd)%{$reset_color%}%{$fg[cyan]%}$(git_prompt_info)%{$reset_color%}${NEWLINE} %(!.#.>) '
 
 if [[ $TERM != dumb ]]
 then
