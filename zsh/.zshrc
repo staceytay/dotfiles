@@ -17,6 +17,6 @@ ZSH_THEME="stacey"
 unalias run-help
 autoload run-help
 
-plugins=(brew git pip zsh-syntax-highlighting)
+plugins=(brew git zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
